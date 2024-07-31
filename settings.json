@@ -83,5 +83,13 @@
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.panel.defaultLocation": "right",
+    "workbench.panel.defaultLocation": "bottom",
+    "security.workspace.trust.untrustedFiles": "open",
+    "jupyter.runStartupCommands": [
+      "%load_ext autoreload",
+      "%autoreload 2"
+    ],
+    "settingsSync.ignoredSettings": [
+      "-python.venvPath"
+    ],
 }
