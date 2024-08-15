@@ -76,3 +76,6 @@ eval "$(direnv hook zsh)"
 
 # Created by `pipx` on 2024-05-20 21:21:28
 export PATH="$PATH:/home/bender/.local/bin"
+
+# Set the path to the auto_dag_app project directory
+export AUTODAGPATH=/home/bender/Code/DridrM/personal_data_projects/langchain_auto_dag_app
